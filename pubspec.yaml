@@ -1,6 +1,6 @@
 name: text_with_outline
 description: "A Flutter package to easily create text with customizable contours and interior styles."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Alerwann/text_with_outline
 repository: https://github.com/Alerwann/text_with_outline
 
