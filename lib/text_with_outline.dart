@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-
-class TextWithContoursPack extends StatelessWidget {
+class TextWithOuline extends StatelessWidget {
   final String enterText;
   final Color colorContour;
   final Color colorInterior;
@@ -13,7 +12,7 @@ class TextWithContoursPack extends StatelessWidget {
   final TextOverflow? overflow;
   final int? maxLines;
 
-  const TextWithContoursPack({
+  const TextWithOuline({
     super.key,
     required this.enterText,
     required this.colorContour,
@@ -27,7 +26,7 @@ class TextWithContoursPack extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     final baseStyle = style ?? const TextStyle();
+    final baseStyle = style ?? const TextStyle();
     return Stack(
       children: [
         Text(
@@ -53,4 +52,3 @@ class TextWithContoursPack extends StatelessWidget {
     );
   }
 }
-

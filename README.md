@@ -1,6 +1,8 @@
-# Text With Boarding
+# Text With Outline
 
 A Flutter package that allows you to easily create text with customizable contours (strokes) and interior styles. Perfect for titles, games, or any UI that needs text to pop!
+
+![Aperçu du package](screenshots/preview.png)
 
 ## Features
 
@@ -15,17 +17,18 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  text_with_boarding: ^0.0.1
+  text_with_outline: ^0.0.1
 ```
 
 ## Usage
+
 
 ### Basic Usage (TextWithContours)
 
 Simple text with a solid contour and solid interior color.
 
 ```dart
-import 'package:text_with_boarding/text_with_boarding.dart';
+import 'package:text_with_outline/text_with_outline.dart';
 
 TextWithContours(
   enterText: "Hello World",
@@ -42,22 +45,5 @@ TextWithContours(
 Use a `TextStyle` to define the look of the text inside the contour.
 
 ```dart
-import 'package:text_with_boarding/text_with_boarding.dart';
-
-TextWithContoursTextStyle(
-  enterText: "Stylish Text",
-  colorContour: Colors.blue,
-  colorInterior: Colors.yellow, // Fallback color
-  style: TextStyle(
-    fontSize: 50,
-    fontWeight: FontWeight.bold,
-    color: Colors.yellow,
-    letterSpacing: 2.0,
-  ),
-  strokeWidth: 6,
-)
+import 'package:text_with_outline/text_with_outline.dart'; more details, check out the example or the API documentation.
 ```
-
-## Additional Information
-
-For more details, check out the example or the API documentation.
