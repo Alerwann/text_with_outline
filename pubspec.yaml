@@ -1,7 +1,8 @@
 name: text_with_boarding
 description: "A Flutter package to easily create text with customizable contours and interior styles."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Alerwann/text_with_boarding
+repository: https://github.com/Alerwann/text_with_boarding https://github.com/Alerwann/text_with_boarding.git
 
 environment:
   sdk: ^3.9.2
@@ -17,4 +18,3 @@ dev_dependencies:
   flutter_lints: ^5.0.0
 
 flutter:
-
