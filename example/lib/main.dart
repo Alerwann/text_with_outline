@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: TextWithOuline(
+        title: TextWithOutline(
           enterText: 'Welcome',
           colorContour: Colors.lightBlueAccent,
           colorInterior: Colors.black,
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
             spacing: 30,
 
             children: [
-              TextWithOuline(
+              TextWithOutline(
                 enterText: "It's easy to make a text with border",
                 colorContour: Colors.black,
                 colorInterior: const Color.fromARGB(255, 233, 111, 255),
@@ -68,20 +68,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   fontFamily: 'Delius',
                 ),
               ),
-              TextWithOuline(
+              TextWithOutline(
                 enterText: 'Just add the package to your pubspec.yaml',
                 colorContour: Colors.blue,
                 colorInterior: Colors.yellow,
                 style: TextStyle(fontSize: 20, letterSpacing: 2),
               ),
-              TextWithOuline(
+              TextWithOutline(
                 enterText:
                     "In your page add : import 'package:text_with_boarding/text_with_boarding.dart'; ",
                 colorContour: Colors.black,
                 colorInterior: Colors.red,
                 style: TextStyle(fontSize: 20, letterSpacing: 2),
               ),
-              TextWithOuline(
+              TextWithOutline(
                 enterText:
                     "And use the widget : TextWithOuline(). text and 2 colors are required ",
                 colorContour: Colors.black,
