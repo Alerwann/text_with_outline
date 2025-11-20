@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class TextWithOuline extends StatelessWidget {
   final String enterText;
   final Color colorContour;
